@@ -1,0 +1,19 @@
+.c-searchbar {
+  width: 100%;
+
+  border-radius: 16px;
+  overflow: hidden;
+
+  background-color: #282828;
+}
+
+
+.c-searchbar__error,
+.c-searchbar__placeholder {
+  margin: 8px 16px;
+  font-size: 16px;
+}
+
+.c-searchbar__error {
+  color: #ef233c;
+}

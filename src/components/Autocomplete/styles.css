@@ -1,0 +1,27 @@
+.c-autocomplete {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.c-autocomplete__item {
+    padding: 8px 16px;
+}
+
+.c-autocomplete__item:last-child {
+    padding-bottom: 16px;
+}
+
+.c-autocomplete__item:first-child {
+    border-top: 1px solid #9f9f9f;
+}
+
+.c-autocomplete__item:hover {
+    background-color: #2e2e2e;
+}
+
+.c-autocomplete__item b {
+    color: #dfdfdf;
+}

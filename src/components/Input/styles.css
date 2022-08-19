@@ -1,0 +1,34 @@
+.c-input {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 16px;
+}
+
+.c-input__field {
+    width: 100%;
+
+    border: none;
+
+    background: transparent;
+
+    color: #9f9f9f;
+}
+
+
+.c-input__loader {
+    height: 24px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    border: 4px solid #9f9f9f;
+    animation: input-loader 1s infinite linear;
+    border-right-color: transparent;
+}
+
+@keyframes input-loader {
+    to {
+        transform: rotate(1turn);
+    }
+}
